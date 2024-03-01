@@ -12,9 +12,9 @@ using System;
 	
 		 
 	
-		Console.WriteLine("Ingrese la primera nota");  
+		Console.WriteLine("Ingrese la primera nota");
         double examen1 = double.Parse(Console.ReadLine());
-
+   
         Console.WriteLine("Ingrese la primera nota");  
         double examen2 = double.Parse(Console.ReadLine());
  
