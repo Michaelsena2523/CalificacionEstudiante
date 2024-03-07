@@ -1,0 +1,14 @@
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\bin\Debug\net8.0\ModificadorAcceso.exe
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\bin\Debug\net8.0\ModificadorAcceso.deps.json
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\bin\Debug\net8.0\ModificadorAcceso.runtimeconfig.json
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\bin\Debug\net8.0\ModificadorAcceso.dll
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\bin\Debug\net8.0\ModificadorAcceso.pdb
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ModificadorAcceso.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ModificadorAcceso.AssemblyInfoInputs.cache
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ModificadorAcceso.AssemblyInfo.cs
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ModificadorAcceso.csproj.CoreCompileInputs.cache
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ModificadorAcceso.dll
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\refint\ModificadorAcceso.dll
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ModificadorAcceso.pdb
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ModificadorAcceso.genruntimeconfig.cache
+D:\Clase de programacion\C#\Modificador De Acceso\ModificadorAcceso\ModificadorAcceso\obj\Debug\net8.0\ref\ModificadorAcceso.dll
