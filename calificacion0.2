@@ -1,0 +1,145 @@
+using System; 
+
+
+class CalcularCalificaion
+{
+	
+	public double examen1 , examen2,examen3 ,sum=0, NotaFinalDelEstudiante, pratica;
+	public double resultado1, resultado2, resultado3, resultadoFinal, notaFinalPratica
+	
+	
+    static void Main()
+    {
+
+         
+		   notaEstudiante sumaExamen = new notaEstudiante(); 
+           calificacionDePratica sumaPratica = new calificacionDePratica();
+		   
+		     sumaExamen.SumaDeNotaDeEstudiante();
+			 sumaPratica.calificacionDepraticaFina();
+		 
+		 
+		 
+             //otaFinalDelEstudiante = resultadoFinal + notaFinalPratica;            
+            //Console.WriteLine("Nota Final del estudiante Aprovado o Reprobado:"+ NotaFinalDelEstudiante);
+            //Console.WriteLine("Quieres seguir dentro del systema escriba (yes) caso contrario preciones cual tecla");
+            //seguir = Console.ReadLine();
+
+
+            Console.ReadKey();
+            Console.Clear();
+
+             
+
+
+    }
+	
+	
+	public class notaEstudiante: CalcularCalificaion{
+		
+		public void SumaDeNotaDeEstudiante(){
+			
+         //CalificacionFinal OBJexamen = new CalificacionFinal();
+			
+			
+			while (true)
+            {
+                Console.WriteLine("Ingrese sus primera calificacion");
+                try {
+                    examen1 = double.Parse(Console.ReadLine());
+                    if (examen1 >= 0 && examen1 <= 100)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("El numero que debe insertar debe ser menor 100 y 0"); 
+                    }
+                }
+                catch (FormatException) 
+                {
+                    Console.WriteLine("Por favor introdusca calificacion validad"); 
+                }
+
+            }
+
+            while (true)
+            {
+                Console.WriteLine("Ingrese sus primera calificacion");
+                try
+                {
+                    examen2 = double.Parse(Console.ReadLine());
+                    if (examen2 >= 0 && examen2 <= 100)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("El numero que debe insertar debe ser menor 100 y 0");
+                    }
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Por favor introdusca calificacion validad");
+                }
+
+            }
+
+            while (true)
+            {
+                Console.WriteLine("Ingrese sus primera calificacion");
+                try
+                {
+                    examen3 = double.Parse(Console.ReadLine());
+                    if (examen3 >= 0 && examen3 <= 100)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("El numero que debe insertar debe ser menor 100 y 0");
+                    }
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Por favor introdusca calificacion validad");
+                }
+
+            }
+			
+			
+			 resultado1 = examen1 * 25 / 100;
+             resultado2 = examen2 * 20 / 100;
+             resultado3 = examen3 * 25 / 100;
+			 resultadoFinal = resultado1 + resultado2 + resultado3;
+			 Console.WriteLine("Su calificacion de primera nota es:" + resultado1);
+             Console.WriteLine("Su csalificacion de primera nota es:" + resultado2);
+             Console.WriteLine("Su calificacion de primera nota es:" + resultado3);
+             Console.WriteLine("Su calificacion final es: " + resultadoFinal);
+		}
+		
+		
+	}
+	
+	
+	
+	  public class calificacionDePratica{
+		  
+		  public void calificacionDepraticaFina(){
+
+            praticaDeEstudiante OBJpratica = new praticaDeEstudiante();
+			  
+	     for (int i = 1; i < 4 ; i++ )
+           {
+             Console.WriteLine("Ingrese la primera la nota de la pratica" + i); 
+             OBJpratica.pratica = double.Parse(Console.ReadLine());
+             OBJpratica.sum += OBJpratica.pratica;
+            } 
+			  
+			 OBJpratica.notaFinalPratica = OBJpratica.sum / 100 * 3; 
+             Console.WriteLine("La suma de lo pratica es " + OBJpratica.notaFinalPratica);
+			  
+		  }
+	  } 
+	
+}
